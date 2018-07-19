@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: #f2f5f9;
+}
+
+.App-header {
+  text-align: left;
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+
+}
+
+.search-bar {
+  margin: 20px;
+  text-align: center;
+}
+
+.search-bar input {
+  width: 100%;
+}
+
+.table-details {
+  margin-top: 20px;
+}
+
+.table-content-details {
+  text-align: left;
+  padding: 16px;
+}
+
+.player-col {
+  cursor: pointer;
+}
+
+.grid-details [class*="col-"] {
+  padding: 5px;
+  background-color: #e1e8f2;
+  border: 1px solid #D8D8D8;
+}
+
